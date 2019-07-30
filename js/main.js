@@ -1,10 +1,12 @@
 'use strict';
 
-function ten() {
+function ten(str) {
     for (let i=0; i<10; i++)
-    console.log(i,'patata');
+    console.log(str);
     // console.log(`${i}patata`)
 }
 
-ten(); 
+ten('Patata');
+ten('Aguacate');
+ten('Pizza');
 // esto llama a la función, si no se llama no funciona.
